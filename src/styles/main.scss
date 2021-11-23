@@ -1,0 +1,45 @@
+body {
+  font-size: $font-size-base;
+  line-height: 1.4;
+  color: $text-color-primary;
+}
+
+image {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background: transparent;
+  border-radius: 0;
+
+  &.button-hover {
+    color: inherit;
+    background: transparent;
+  }
+
+  &::after {
+    border: none;
+  }
+}
+
+.btn {
+  @include flex-center;
+  line-height: 1;
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.avatar {
+  image {
+    border-radius: 50%;
+  }
+}

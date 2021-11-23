@@ -1,0 +1,32 @@
+// 配色
+$color-primary            : #007fff;
+$color-secondary          : #ff004b;
+$color-tertiary           : #ffb100;
+$color-quaternary         : #00cc8e;
+
+// 文字颜色
+$text-color-primary       : #303133;
+$text-color-regular       : #606266;
+$text-color-secondary     : #909399;
+$text-color-placeholder   : #c0c4cc;
+$text-color-reverse       : #fff;
+
+// 边框颜色
+$border-color             : #eee;
+
+// 背景颜色
+$bg-color                 : #fff;
+$bg-color-gray            : #f8f8f8;
+
+// 字体大小
+$font-size-base           : 28rpx;
+$font-size-sm             : $font-size-base - 2rpx;
+$font-size-xs             : $font-size-base - 4rpx;
+$font-size-xxs            : $font-size-base - 6rpx;
+$font-size-3xs            : $font-size-base - 8rpx;
+$font-size-lg             : $font-size-base + 2rpx;
+$font-size-xl             : $font-size-base + 4rpx;
+$font-size-xxl            : $font-size-base + 6rpx;
+$font-size-3xl            : $font-size-base + 8rpx;
+$font-size-4xl            : $font-size-base + 10rpx;
+$font-size-5xl            : $font-size-base + 12rpx;
